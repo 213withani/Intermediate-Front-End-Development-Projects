@@ -16,6 +16,7 @@ $(document).ready(function() {
       var mainWeather = json.weather[0].main;
       var country = json.sys.country;
       var loc = json.name;
+      $(".weather").html(icon);
 
       $("#celcius").on("click", function() {
 
